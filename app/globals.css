@@ -133,7 +133,7 @@ body:has(.ai-report-figma-shell) { zoom:1; }
 
 html {
   min-width: 1440px;
-  zoom: 1;
+  zoom: .67;
   scrollbar-gutter: stable;
 }
 
