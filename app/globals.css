@@ -95,7 +95,7 @@ body:has(.result-figma-shell) { zoom:1; }
 .ai-report-figma-shell { position:relative; width:1440px; height:1107px; min-height:1107px; margin:0 auto; overflow:hidden; background:#fff; color:#000; font-family:"Inter",sans-serif; }
 body:has(.ai-report-figma-shell) { zoom:1; }
 .ai-report-figma-shell>h1 { position:absolute; left:80px; top:237px; width:842px; height:48px; margin:0; font:600 40px/48px "Inter",sans-serif; letter-spacing:0; }
-.ai-report-figma-sparkle { position:absolute; left:384px; top:223px; width:57px; height:64px; object-fit:cover; }
+.ai-report-figma-sparkle { position:absolute; left:430px; top:223px; width:57px; height:64px; object-fit:cover; }
 .ai-report-figma-bubble { position:absolute; left:145px; top:337px; z-index:1; width:982px; height:407px; }
 .ai-report-figma-bubble>img { position:absolute; inset:0; width:982px; height:407px; }
 .ai-report-figma-bubble>p { position:absolute; left:39px; top:50%; width:905px; max-height:324px; margin:0; overflow:auto; transform:translateY(-50%); color:rgba(0,0,0,.75); font:400 24px/36px "Inter",sans-serif; letter-spacing:0; text-align:justify; overflow-wrap:break-word; }
