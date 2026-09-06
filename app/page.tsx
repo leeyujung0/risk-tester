@@ -272,7 +272,7 @@ function Input(p: InputProps) {
 
     <section className="mx-[81px] mt-[120px]"><h2 className="h-[48px] w-[515px] text-[32px] font-medium leading-[48px]">시뮬레이션 기간</h2><p className="mt-[14px] h-[36px] w-[515px] text-[24px] font-normal leading-[36px] text-[#828282]">얼마나 먼 미래까지의 위험을 볼까요?</p><div className="mt-[30px] flex gap-[46px]">{HORIZON_OPTIONS.slice(0, 3).map((item) => <button className="input-horizon-large h-[70px] w-[194px] rounded-[24px] border-2 border-[#DADADA] bg-white shadow-[0_1px_2px_rgba(0,0,0,0.05)] aria-pressed:border-[#5C67FD] aria-pressed:bg-[rgba(92,103,253,0.11)]" key={item.id} aria-pressed={p.horizonId === item.id} onClick={() => p.onHorizon(item.id)}>{item.label}</button>)}</div></section>
     {p.error && <p role="alert" className="mx-[84px] mt-[32px] text-[18px] text-red-600">{p.error}</p>}
-    <button disabled={p.loading} onClick={p.onRun} className="input-run-large mx-[84px] mt-[87px] flex h-[76px] w-[1264px] items-center justify-center gap-[8px] rounded-[20px] bg-[#5C67FD] px-[32px] py-[20px] text-white shadow-[0_1px_2px_rgba(0,0,0,0.05)] disabled:opacity-70">{p.loading && <LoaderCircle className="animate-spin" size={24} />}{p.loading ? "스트레스 테스트 실행 중…" : "스트레스 테스트 실행"}</button>
+    <button disabled={p.loading} onClick={p.onRun} className="input-run-large mx-[84px] mb-[120px] mt-[87px] flex h-[76px] w-[1264px] items-center justify-center gap-[8px] rounded-[20px] bg-[#5C67FD] px-[32px] py-[20px] text-white shadow-[0_1px_2px_rgba(0,0,0,0.05)] disabled:opacity-70">{p.loading && <LoaderCircle className="animate-spin" size={24} />}{p.loading ? "스트레스 테스트 실행 중…" : "스트레스 테스트 실행"}</button>
   </main>;
 }
 
